@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Share your screen</title>
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <script defer src="render.js"></script>
+   
+</head>
+<body>
+    <div class="content" role="main">
+
+        <div id="container">
+            <h1><a href="#" title="sample homepage">sample </a> <span>Screen Share</span></h1>
+            <!--<video id="remoteVideo" autoplay playsinline muted style="height:360px;width:640px;"></video>-->
+            <canvas id="remoteCanvas" style="height:80vh;width:100%;border:2px solid yellow;"></canvas>
+            <button id="startButton">Start</button>
+            <button id="partOfScreenBtn">Part of screen</button>
+            <button id="stopButton">Stop Sharing</button>
+            <p>Display the screensharing stream from <code>getDisplayMedia()</code> in a video element.</p>
+        </div>
+
+    </div>
+</body>
+</html>

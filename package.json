@@ -1,0 +1,24 @@
+{
+  "name": "ScreenShare-Electron",
+  "version": "1.0.0",
+  "description": "Screen share electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihilpatel1992/ScreenShare-Electron.git"
+  },
+  "keywords": [],
+  "author": "Nihil Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nihilpatel1992/ScreenShare-Electron/issues"
+  },
+  "homepage": "https://github.com/nihilpatel1992/ScreenShare-Electron#readme",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  }
+}
